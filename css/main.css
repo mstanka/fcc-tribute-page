@@ -1,0 +1,144 @@
+@i * {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 2rem 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 630px) {
+  h1 #years {
+    display: block;
+  }
+}
+
+h2 {
+  font-size: 2rem;
+  color: #d9e7f2;
+  margin-bottom: 3rem;
+}
+
+a {
+  color: #d9e7f2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #74638f;
+}
+
+#main {
+  margin: 3rem 1rem;
+  padding: 1.5rem;
+  border-radius: .5rem;
+  background: #79aad2;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+#img-div {
+  background: #d9e7f2;
+  padding: 2rem;
+  margin: 0 auto;
+  border-radius: .5rem;
+}
+
+#img-div img {
+  max-width: 90%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-radius: .5rem;
+}
+
+#img-div #img-caption {
+  margin: 1.5rem 0 .5rem 0;
+  font-style: italic;
+}
+
+@media (max-width: 460px) {
+  #img-div #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#tribute-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#tribute-info #headline {
+  margin: 3rem 0;
+  text-align: center;
+}
+
+#tribute-info ul {
+  max-width: 600px;
+  text-align: left;
+  line-height: 1.6;
+  padding-left: 0;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+#tribute-info li {
+  margin: 1.5rem 0;
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+#tribute-info li #main-work {
+  color: #d9e7f2;
+}
+
+#tribute-info li #referee {
+  font-style: italic;
+}
+
+#tribute-info p {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 1rem 0;
+}
+
+#attribution {
+  font-size: 1.1rem;
+  padding: 2rem 0 0 0;
+}
+/*# sourceMappingURL=main.css.map */

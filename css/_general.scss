@@ -1,0 +1,129 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 2rem 0;
+
+  @media (max-width: 460px) {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+
+   #years {
+     @media (max-width: 630px) {
+       display: block;
+     }
+   }
+}
+
+h2 {
+  font-size: 2rem;
+  color: $primary-color-light;
+  margin-bottom: 3rem;
+}
+
+a {
+  color: $primary-color-light;
+  text-decoration: none;
+  
+  &:hover {
+  color: $link-color;
+  }
+}
+
+#main {
+  margin: 3rem 1rem;
+  padding: 1.5rem;
+  border-radius: .5rem;
+  background: $primary-color-dark;
+  
+  @media (max-width: 460px) {
+    margin: 0;
+  }
+}
+ 
+#img-div {
+  background: $primary-color-light;
+  padding: 2rem;
+  margin: 0 auto;
+  border-radius: .5rem;
+
+  img {
+    max-width: 90%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-radius: .5rem;
+    }
+
+  #img-caption {
+    margin: 1.5rem 0 .5rem 0;
+    font-style: italic;
+    
+    @media (max-width: 460px) {
+    font-size: 1.4rem;
+    }
+  }
+}
+
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  #headline {
+    margin: 3rem 0;
+    text-align: center;
+  }
+  
+  ul {
+    max-width: 600px;
+    text-align: left;
+    line-height: 1.6;
+    padding-left: 0;
+    padding: 0 2rem;
+    margin: 0 auto;
+  }
+
+  li {
+    margin: 1.5rem 0;
+    list-style-type: circle;
+    list-style-position: inside;
+
+    #main-work {
+      color: $primary-color-light;
+    }
+
+    #referee {
+      font-style: italic;
+    }
+  }
+  p {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 1rem 0;
+  }
+}
+
+#attribution {
+  font-size: 1.1rem;
+  padding: 2rem 0 0 0;
+}
